@@ -1,0 +1,16 @@
+/* frontend/src/components/Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-container p {
+  font-size: 1.25rem;
+  color: var(--color-text-dark);
+}

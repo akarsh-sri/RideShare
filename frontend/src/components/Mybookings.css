@@ -1,0 +1,94 @@
+/* frontend/src/components/MyBookings.css */
+
+.my-bookings-container {
+    max-width: 800px;
+    height: 991px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.ab{
+    margin: auto;
+    
+}
+
+.no{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F44336;
+}
+
+.my-bookings-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.bookings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.booking-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card.accepted {
+    border-left: 5px solid #4CAF50;
+}
+
+.booking-card.pending {
+    border-left: 5px solid #FF9800;
+}
+
+.booking-card.rejected {
+    border-left: 5px solid #F44336;
+}
+
+.booking-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.booking-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.countdown {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #007BFF;
+    display: flex;
+    align-items: center;
+}
+
+.countdown strong {
+    margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+    .booking-card {
+        padding: 10px;
+    }
+
+    .countdown {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .countdown strong {
+        margin-bottom: 5px;
+    }
+
+}

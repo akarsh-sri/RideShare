@@ -1,0 +1,87 @@
+root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.notification-link {
+  position: relative;
+  display: inline-block;
+  color: #333333;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.notification-icon {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #FF0000;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75em;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+:root {
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  --border-radius: 5px;
+  --color-background-light: #f9f9f9;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  
+  --color-border: #ccc;
+  --color-input-bg: #fff;
+  --color-link: #007bff;
+  --color-link-hover: #0056b3;
+  --color-focus-ring: rgba(0, 123, 255, 0.25);
+  --font-weight-semibold: 600;
+
+  --transition-speed: 0.3s;
+  --transition-ease: ease-in-out;
+}
